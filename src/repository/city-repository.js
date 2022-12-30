@@ -18,6 +18,7 @@ class cityRepository {
           id: cityId,
         },
       });
+      return true;
     } catch (error) {
       console.log("something went wrong wrong in the  repository layer");
       throw { error };
